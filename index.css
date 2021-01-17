@@ -3,7 +3,7 @@ body{
     place-items: center;
 }
 table{
-    width: 700px;
+    width: 100%;
     border-collapse: collapse;
     padding: 10px;
     margin: 20px;
@@ -18,8 +18,7 @@ caption{
 th{
     height: 20px;
     background-color: #2364AA;
-    
-    color: gray;
+    color: white;
     font-family: 'Ubuntu', sans-serif;
 
 }
@@ -33,9 +32,6 @@ td{
 td:nth-child(odd){
     background-color: #73BFB8;
 }
-.delivered{
-    border-left: 4px solid #EA7317;
-}
-.pending{
-    border-left: 4px solid #3DA5D9;
+.loader{
+    display: none;
 }
