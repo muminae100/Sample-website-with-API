@@ -3,14 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="index.css">
     <title>Web with API</title>
 </head>
 <body>
     <div class="users">
         <table>
-            <caption>Delivered</caption>
-            <thead>
+            <caption class="delivered">Delivered</caption>
+            <thead class="delivered">
                 <th>UserId</th>
                 <th>Name</th>
                 <th>Item</th>
@@ -22,8 +26,8 @@
             </tbody>
         </table>
         <table>
-            <caption>Pending</caption>
-            <thead>
+            <caption class="pending">Pending</caption>
+            <thead class="pending">
                 <th>UserId</th>
                 <th>Name</th>
                 <th>Item</th>
@@ -35,5 +39,6 @@
             </tbody>
         </table>
     </div>
+    <script src="index.js"></script>
 </body>
 </html>
